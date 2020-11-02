@@ -40,7 +40,7 @@ window.onload = function () {
     // Select Catagory
     var selectCat = function () {
       if (chosenCategory === categories[0]) {
-        catagoryName.innerHTML = "Couleurs";
+        catagoryName.innerHTML = "Couleur";
       }
     }
   
