@@ -68,7 +68,7 @@ window.onload = function () {
     
     // Show lives
      comments = function () {
-      showLives.innerHTML = "You have " + lives + " lives";
+      showLives.innerHTML = "Il vous reste " + lives + " vies";
       if (lives < 1) {
         showLives.innerHTML = "Game Over";
       }
